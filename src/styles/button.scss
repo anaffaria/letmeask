@@ -1,4 +1,4 @@
-.button{
+.button {
   height: 50px;
   border-radius: 8px;
   font-weight: 500;
@@ -14,21 +14,22 @@
   border: 0;
 
   transition: filter 0.2s;
-  img{
+
+  img {
     margin-right: 8px;
   }
 
-  &.outlined{
+  &.outlined {
     background: #FFF;
-    border: 2px solid #835afd;
+    border: 1px solid #835afd;
     color: #835afd;
   }
 
-  &:not(:disabled):hover{
-    filter: brightness(0.9)
+  &:not(:disabled):hover {
+    filter: brightness(0.8);
   }
 
-  &:disabled{
+  &:disabled {
     opacity: 0.6;
     cursor: not-allowed;
   }

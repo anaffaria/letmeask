@@ -1,5 +1,5 @@
 import { useHistory } from "react-router-dom";
-import { Buttom } from "../components/Buttom";
+import { Button } from "../components/Button";
 import { useAuth } from "../hooks/useAuth";
 
 import illustrationImg from "../assets/images/illustration.svg";
@@ -69,7 +69,7 @@ export function Home() {
               onChange={(event) => setRoomCode(event.target.value)}
               value={roomCode}
             />
-            <Buttom type="submit">Entrar na Sala</Buttom>
+            <Button type="submit">Entrar na Sala</Button>
           </form>
         </div>
       </main>

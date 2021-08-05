@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { Buttom } from "../components/Buttom";
+import { Button } from "../components/Button";
 import logoImg from "../assets/images/logo.svg";
 
 import "../styles/room.scss";
@@ -94,9 +94,9 @@ export function Room() {
                 Para enviar uma pergunta, <button>faça seu login</button>.
               </span>
             )}
-            <Buttom type="submit" disabled={!user}>
+            <Button type="submit" disabled={!user}>
               Enviar pergunta
-            </Buttom>
+            </Button>
           </div>
         </form>
 
